@@ -70,7 +70,8 @@
 		"svelte-check": "catalog:",
 		"typescript": "catalog:",
 		"vite": "catalog:",
-		"vitest-browser-svelte": "catalog:"
+		"vitest-browser-svelte": "catalog:",
+		"@voidzero-dev/vite-plus": "catalog:"
 	},
 	"license": "MIT",
 	"type": "module",

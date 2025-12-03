@@ -70,7 +70,8 @@
 		"tsdown": "catalog:",
 		"typescript": "catalog:",
 		"vite": "catalog:",
-		"vitest-browser-react": "catalog:"
+		"vitest-browser-react": "catalog:",
+		"@voidzero-dev/vite-plus": "catalog:"
 	},
 	"license": "MIT",
 	"type": "module",

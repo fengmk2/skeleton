@@ -35,7 +35,8 @@
 	"devDependencies": {
 		"clean-package": "catalog:",
 		"sass-embedded": "catalog:",
-		"vite": "catalog:"
+		"vite": "catalog:",
+		"@voidzero-dev/vite-plus": "catalog:"
 	},
 	"license": "MIT",
 	"type": "module",
