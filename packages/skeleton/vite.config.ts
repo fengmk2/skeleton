@@ -1,5 +1,5 @@
 import { globSync } from 'node:fs';
-import { defineConfig } from 'vite';
+import { defineConfig } from '@voidzero-dev/vite-plus';
 
 export default defineConfig({
 	logLevel: 'error',

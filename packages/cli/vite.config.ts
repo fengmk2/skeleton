@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from '@voidzero-dev/vite-plus';
 import { join } from 'node:path';
 
 export default defineConfig({

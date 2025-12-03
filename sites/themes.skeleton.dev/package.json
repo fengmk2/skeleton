@@ -26,7 +26,8 @@
 		"tailwindcss": "catalog:",
 		"typescript": "catalog:",
 		"vite": "catalog:",
-		"vite-plugin-transform-lucide-imports": "catalog:"
+		"vite-plugin-transform-lucide-imports": "catalog:",
+		"@voidzero-dev/vite-plus": "catalog:"
 	},
 	"type": "module"
 }
