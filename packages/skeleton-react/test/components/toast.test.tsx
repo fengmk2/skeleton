@@ -1,9 +1,9 @@
 import { createToaster } from '../../src/index.js';
 import Toast from './toast.jsx';
 import { act } from 'react';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import { render } from 'vitest-browser-react';
-import { page } from 'vitest/browser';
+import { page } from '@voidzero-dev/vite-plus/test/browser';
 
 describe('Toast', () => {
 	describe('Group', () => {

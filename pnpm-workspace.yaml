@@ -48,7 +48,6 @@ catalog:
   '@types/react-dom': 19.2.3
   '@types/semver': 7.7.1
   '@vitejs/plugin-react': 5.1.2
-  '@vitest/browser-playwright': 4.0.15
   '@zag-js/accordion': 1.31.1
   '@zag-js/avatar': 1.31.1
   '@zag-js/collapsible': 1.31.1
@@ -100,8 +99,6 @@ catalog:
   node-html-parser: 7.0.1
   octokit: 5.0.5
   oxc-resolver: 11.15.0
-  oxlint: 1.32.0
-  oxlint-tsgolint: 0.8.6
   package-manager-detector: 1.6.0
   playwright: 1.57.0
   postcss: 8.5.6
@@ -123,12 +120,13 @@ catalog:
   type-fest: 5.3.1
   typescript: 5.9.3
   unist-util-visit: 5.0.0
-  vite: 7.2.7
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-0df0c5ffeeeea77381aa35fa5b0b915fb39149fb
   vite-plugin-transform-lucide-imports: 0.3.0
-  vitest: 4.0.15
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-0df0c5ffeeeea77381aa35fa5b0b915fb39149fb
   vitest-browser-react: 2.0.2
   vitest-browser-svelte: 2.0.1
   zimmerframe: 1.1.4
+  '@voidzero-dev/vite-plus': 0.0.0-0df0c5ffeeeea77381aa35fa5b0b915fb39149fb
 
 catalogMode: strict
 
@@ -140,6 +138,13 @@ minimumReleaseAge: 4320
 
 minimumReleaseAgeExclude:
   - '@zag-js/*'
+  - '@voidzero-dev/*'
+  - oxlint
+  - '@oxlint/*'
+  - oxlint-tsgolint
+  - '@oxlint-tsgolint/*'
+  - oxfmt
+  - '@oxfmt/*'
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
@@ -148,3 +153,13 @@ onlyBuiltDependencies:
   - sharp
 
 savePrefix: ''
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'

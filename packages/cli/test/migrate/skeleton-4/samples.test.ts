@@ -4,7 +4,7 @@ import { transformStylesheet } from '../../../src/commands/migrate/migrations/sk
 import { transformSvelte } from '../../../src/commands/migrate/migrations/skeleton-4/transformers/transform-svelte.js';
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath, resolve } from 'node:url';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 
 const TRANSFORMER_MAP = {
 	svelte: transformSvelte,
