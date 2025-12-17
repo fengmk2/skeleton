@@ -22,12 +22,12 @@
 		"@prettier/plugin-oxc": "catalog:",
 		"@svitejs/changesets-changelog-github-compact": "catalog:",
 		"@trivago/prettier-plugin-sort-imports": "catalog:",
+		"@voidzero-dev/vite-plus": "catalog:",
 		"prettier": "catalog:",
 		"prettier-plugin-astro": "catalog:",
 		"prettier-plugin-svelte": "catalog:",
 		"vite": "catalog:",
-		"vitest": "catalog:",
-		"@voidzero-dev/vite-plus": "catalog:"
+		"vitest": "catalog:"
 	},
 	"pnpm": {
 		"overrides": {}
