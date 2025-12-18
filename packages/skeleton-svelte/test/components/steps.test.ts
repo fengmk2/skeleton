@@ -1,7 +1,7 @@
 import Steps from './steps.svelte';
 import { render } from 'vitest-browser-svelte';
-import { describe, expect, it } from 'vitest';
-import { page } from 'vitest/browser';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
+import { page } from '@voidzero-dev/vite-plus/test/browser';
 
 describe('Steps', () => {
 	describe('Root', () => {

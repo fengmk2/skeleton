@@ -1,7 +1,7 @@
 import Tooltip from './tooltip.jsx';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import { render } from 'vitest-browser-react';
-import { page } from 'vitest/browser';
+import { page } from '@voidzero-dev/vite-plus/test/browser';
 
 describe('Tooltip', () => {
 	describe('Trigger', () => {

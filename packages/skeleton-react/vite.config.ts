@@ -1,6 +1,6 @@
 import react from '@vitejs/plugin-react';
-import { playwright } from '@vitest/browser-playwright';
-import { defineConfig } from 'vitest/config';
+import { playwright } from '@voidzero-dev/vite-plus/test/browser-playwright';
+import { defineConfig } from '@voidzero-dev/vite-plus';
 import { join } from 'node:path';
 
 export default defineConfig({

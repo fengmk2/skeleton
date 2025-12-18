@@ -27,7 +27,8 @@
 		"tsdown": "catalog:",
 		"type-fest": "catalog:",
 		"typescript": "catalog:",
-		"vite": "catalog:"
+		"vite": "catalog:",
+		"@voidzero-dev/vite-plus": "catalog:"
 	},
 	"dependencies": {
 		"@clack/prompts": "catalog:",

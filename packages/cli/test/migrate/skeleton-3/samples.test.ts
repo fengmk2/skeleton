@@ -7,7 +7,7 @@ import { transformSvelte } from '../../../src/commands/migrate/migrations/skelet
 import { FALLBACK_THEME } from '../../../src/commands/migrate/migrations/skeleton-3/utility/constants.js';
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath, resolve } from 'node:url';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 
 const TRANSFORMER_MAP = {
 	svelte: transformSvelte,
