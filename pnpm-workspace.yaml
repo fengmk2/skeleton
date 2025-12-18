@@ -48,7 +48,7 @@ catalog:
   '@types/react-dom': 19.2.3
   '@types/semver': 7.7.1
   '@vitejs/plugin-react': 5.1.2
-  '@voidzero-dev/vite-plus': 0.0.0-0ba64eab1067b31c459ef545d2b3def68c6c5d12
+  '@voidzero-dev/vite-plus': 0.0.0-3cb11d25cc53853e883c1f952d7a50983162ced7
   '@zag-js/accordion': 1.31.1
   '@zag-js/avatar': 1.31.1
   '@zag-js/collapsible': 1.31.1
@@ -121,8 +121,8 @@ catalog:
   type-fest: 5.3.1
   typescript: 5.9.3
   unist-util-visit: 5.0.0
-  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-0ba64eab1067b31c459ef545d2b3def68c6c5d12
-  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-0ba64eab1067b31c459ef545d2b3def68c6c5d12
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-3cb11d25cc53853e883c1f952d7a50983162ced7
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-3cb11d25cc53853e883c1f952d7a50983162ced7
   vite-plugin-transform-lucide-imports: 0.3.0
   vitest-browser-react: 2.0.2
   vitest-browser-svelte: 2.0.1
