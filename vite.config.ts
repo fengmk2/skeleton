@@ -1,6 +1,21 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
+	lint: {
+		$schema: './node_modules/oxlint/configuration_schema.json',
+		plugins: ['typescript', 'unicorn', 'react', 'react-perf', 'oxc', 'import'],
+		categories: {
+			correctness: 'error',
+		},
+		overrides: [
+			{
+				files: ['*.svelte'],
+				rules: {
+					'no-unassigned-vars': 'off',
+				},
+			},
+		],
+	},
 	test: {
 		projects: ['packages/*'],
 	},

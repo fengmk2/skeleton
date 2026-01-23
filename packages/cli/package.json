@@ -13,8 +13,8 @@
 	],
 	"sideEffects": false,
 	"scripts": {
-		"dev": "tsdown --watch",
-		"build": "tsdown",
+		"dev": "vite lib --watch",
+		"build": "vite lib",
 		"check": "tsc",
 		"prepack": "pnpm build && clean-package",
 		"postpack": "clean-package restore"
@@ -24,10 +24,10 @@
 		"@types/node": "catalog:",
 		"@types/semver": "catalog:",
 		"clean-package": "catalog:",
-		"tsdown": "catalog:",
 		"type-fest": "catalog:",
 		"typescript": "catalog:",
-		"vite": "catalog:"
+		"vite": "catalog:",
+		"vite-plus": "catalog:"
 	},
 	"dependencies": {
 		"@clack/prompts": "catalog:",
