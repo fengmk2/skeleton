@@ -1,8 +1,8 @@
 import Slider from './slider.jsx';
 import { act } from 'react';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { render } from 'vitest-browser-react';
-import { page } from 'vitest/browser';
+import { page } from 'vite-plus/test/browser';
 
 describe('Slider', () => {
 	describe('Root', () => {
