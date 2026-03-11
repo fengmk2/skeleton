@@ -3334,6 +3334,13 @@ packages:
     os: [linux]
     libc: [glibc]
 
+  '@voidzero-dev/vite-plus-linux-x64-gnu@0.1.7':
+    resolution: {integrity: sha512-XrYFcE9XqoZn0yb2Q5xoIWuIvS1/cCYjfQjjPpU8MVTitSAK6JW0KBLlsQjQaiPn0CoJKeOa/8ukUjxnhzZyAA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
   '@voidzero-dev/vite-plus-test@0.1.7':
     resolution: {integrity: sha512-cgWA6q2O6omVGM1qPoZ507OVQ0MnQf4ncDfCIbbjGHwqdCaK4sFrP4Tug6Uini3qAo/HCfK52dDY8SO/ttWnTQ==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
@@ -8299,6 +8306,9 @@ snapshots:
   '@voidzero-dev/vite-plus-linux-arm64-gnu@0.1.7':
     optional: true
 
+  '@voidzero-dev/vite-plus-linux-x64-gnu@0.1.7':
+    optional: true
+
   '@voidzero-dev/vite-plus-test@0.1.7(@types/node@24.10.15)(esbuild@0.27.3)(jiti@2.6.1)(sass-embedded@1.93.3)(sass@1.93.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.8.1)':
     dependencies:
       '@standard-schema/spec': 1.1.0
@@ -11569,6 +11579,7 @@ snapshots:
       '@voidzero-dev/vite-plus-darwin-arm64': 0.1.7
       '@voidzero-dev/vite-plus-darwin-x64': 0.1.7
       '@voidzero-dev/vite-plus-linux-arm64-gnu': 0.1.7
+      '@voidzero-dev/vite-plus-linux-x64-gnu': 0.1.7
       '@voidzero-dev/vite-plus-win32-arm64-msvc': 0.1.7
       '@voidzero-dev/vite-plus-win32-x64-msvc': 0.1.7
     transitivePeerDependencies:
