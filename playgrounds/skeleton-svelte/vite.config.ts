@@ -4,6 +4,6 @@ import { defineConfig } from 'vite-plus';
 import transformLucideImports from 'vite-plugin-transform-lucide-imports';
 
 export default defineConfig({
-	// plugins: [tailwindcss(), sveltekit(), transformLucideImports()],
-	lazy: () => Promise.resolve({ plugins: [tailwindcss(), sveltekit(), transformLucideImports()] }),
+	plugins: [tailwindcss(), sveltekit(), transformLucideImports()],
+	// lazy: () => Promise.resolve({ plugins: [tailwindcss(), sveltekit(), transformLucideImports()] }),
 });
