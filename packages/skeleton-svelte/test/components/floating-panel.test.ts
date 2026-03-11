@@ -1,7 +1,7 @@
 import FloatingPanel from './floating-panel.svelte';
 import { render } from 'vitest-browser-svelte';
-import { describe, expect, it } from 'vitest';
-import { page } from 'vitest/browser';
+import { describe, expect, it } from 'vite-plus/test';
+import { page } from 'vite-plus/test/browser';
 
 describe('FloatingPanel', () => {
 	describe('Trigger', () => {
