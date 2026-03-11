@@ -1,7 +1,7 @@
 import ToggleGroup from './toggle-group.svelte';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { render } from 'vitest-browser-svelte';
-import { page } from 'vitest/browser';
+import { page } from 'vite-plus/test/browser';
 
 describe('ToggleGroup', () => {
 	describe('Root', () => {
