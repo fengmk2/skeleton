@@ -21,5 +21,20 @@
 	},
 	"tailwindCSS.classFunctions": ["defineSkeletonClasses"],
 	"css.lint.unknownAtRules": "ignore",
-	"workbench.editor.languageDetection": false
+	"workbench.editor.languageDetection": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"oxc.disableNestedConfig": true,
+	"oxc.fmt.disableNestedConfig": true,
+	"editor.formatOnSaveMode": "file"
 }

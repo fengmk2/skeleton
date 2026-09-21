@@ -74,7 +74,10 @@
 		"svelte-check": "catalog:",
 		"typescript": "catalog:",
 		"vite": "catalog:",
-		"vitest-browser-svelte": "catalog:"
+		"vitest-browser-svelte": "catalog:",
+		"playwright": "catalog:",
+		"vite-plus": "catalog:",
+		"vitest": "catalog:"
 	},
 	"license": "MIT",
 	"type": "module",

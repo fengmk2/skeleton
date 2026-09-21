@@ -1,7 +1,7 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import tailwind from '@tailwindcss/vite';
-import { defineConfig } from 'vite';
+import { defineConfig, lazyPlugins } from 'vite-plus';
 
 export default defineConfig({
-	plugins: [sveltekit(), tailwind()],
+	plugins: lazyPlugins(() => [sveltekit(), tailwind()]),
 });

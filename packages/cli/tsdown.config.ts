@@ -1,5 +1,3 @@
-import { defineConfig } from 'tsdown';
+import { defineConfig } from 'vite-plus/pack';
 
-export default defineConfig({
-	logLevel: 'error',
-});
+export default defineConfig({ deps: { resolveDepSubpath: true }, logLevel: 'error' });
