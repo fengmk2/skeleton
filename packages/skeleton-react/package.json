@@ -9,9 +9,9 @@
 		"directory": "packages/skeleton-react"
 	},
 	"scripts": {
-		"build": "tsdown",
+		"build": "vp pack",
 		"check": "tsc",
-		"prepack": "pnpm build && clean-package",
+		"prepack": "vp run build && clean-package",
 		"postpack": "clean-package restore"
 	},
 	"exports": {
@@ -71,10 +71,12 @@
 		"clean-package": "catalog:",
 		"react": "catalog:",
 		"react-dom": "catalog:",
-		"tsdown": "catalog:",
 		"typescript": "catalog:",
 		"vite": "catalog:",
-		"vitest-browser-react": "catalog:"
+		"vitest-browser-react": "catalog:",
+		"playwright": "catalog:",
+		"vite-plus": "catalog:",
+		"vitest": "catalog:"
 	},
 	"license": "MIT",
 	"type": "module",

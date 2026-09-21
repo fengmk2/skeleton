@@ -2,7 +2,7 @@ import { transformJsx } from '../../../src/commands/migrate/migrations/skeleton-
 import { transformStylesheet } from '../../../src/commands/migrate/migrations/skeleton-5/transformers/transform-stylesheet.js';
 import { transformSvelte } from '../../../src/commands/migrate/migrations/skeleton-5/transformers/transform-svelte.js';
 import { detectManualClasses } from '../../../src/commands/migrate/migrations/skeleton-5/utility/manual-steps.js';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 const ids = (steps: { id: string }[]) => steps.map((s) => s.id).sort();
 

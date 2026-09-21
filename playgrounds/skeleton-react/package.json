@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vp dev",
 		"check": "tsc",
 		"postinstall": "tsr generate"
 	},
@@ -26,7 +26,8 @@
 		"@vitejs/plugin-react": "catalog:",
 		"tailwindcss": "catalog:",
 		"typescript": "catalog:",
-		"vite": "catalog:"
+		"vite": "catalog:",
+		"vite-plus": "catalog:"
 	},
 	"type": "module"
 }

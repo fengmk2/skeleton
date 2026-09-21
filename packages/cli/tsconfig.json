@@ -16,7 +16,7 @@
 		"declaration": true,
 		"noEmit": true,
 		"lib": ["es2022"],
-		"types": ["vite/client"]
+		"types": ["vite-plus/client"]
 	},
 	"include": ["src", "test"]
 }
