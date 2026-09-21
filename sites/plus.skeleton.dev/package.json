@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
+		"dev": "vp dev",
+		"build": "vp build",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"env:start": "docker compose up -d",
 		"env:status": "docker compose ps",
@@ -52,7 +52,8 @@
 		"typescript": "catalog:",
 		"unplugin-icons": "catalog:",
 		"valibot": "catalog:",
-		"vite": "catalog:"
+		"vite": "catalog:",
+		"vite-plus": "catalog:"
 	},
 	"type": "module"
 }

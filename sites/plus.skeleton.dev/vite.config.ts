@@ -1,6 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import tailwind from '@tailwindcss/vite';
-import { defineConfig, type Plugin } from 'vite';
+import { defineConfig, type Plugin, lazyPlugins } from 'vite-plus';
 import icons from 'unplugin-icons/vite';
 import { Features } from 'lightningcss';
 import { exec } from 'node:child_process';
@@ -29,12 +29,12 @@ function ensureDockerContainersAreRunning(containers: string[]) {
 }
 
 export default defineConfig({
-	plugins: [
+	plugins: lazyPlugins(() => [
 		sveltekit(),
 		tailwind(),
 		icons({ compiler: 'svelte' }),
 		ensureDockerContainersAreRunning(['plus-skeleton-dev-postgres-1', 'plus-skeleton-dev-oauth2-server-1']),
-	],
+	]),
 	css: {
 		lightningcss: {
 			// Skeleton's paired color tokens (e.g. --color-surface-50-950) are declared

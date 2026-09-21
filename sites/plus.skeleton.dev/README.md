@@ -4,7 +4,7 @@
 
 Please ensure you have the following software installed:
 
-- [`pnpm@>=10`](https://pnpm.io/)
+- [Vite+](https://viteplus.dev/guide/)
 - [`docker@>=29`](https://www.docker.com/)
 
 ## Environment Variables
@@ -15,8 +15,8 @@ Note: For local development, you only need to populate the `DATABASE_URL` variab
 
 ## Developing
 
-1. Run `pnpm env:start` (This will spin up the docker container containing both a local postgres database and local oauth server)
-2. Run `pnpm drizzle:push` (if this is your first time spinning up the docker container to sync our Drizzle schema to the local database, otherwise you may skip this step)
-3. Run `pnpm dev`
+1. Run `vp run env:start` (This will spin up the docker container containing both a local postgres database and local oauth server)
+2. Run `vp run drizzle:push` (if this is your first time spinning up the docker container to sync our Drizzle schema to the local database, otherwise you may skip this step)
+3. Run `vp dev`
 
-Once you're done you can run `pnpm env:stop` to spin the container down.
+Once you're done you can run `vp run env:stop` to spin the container down.

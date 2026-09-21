@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vp dev",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"postinstall": "svelte-kit sync"
 	},
@@ -21,7 +21,8 @@
 		"svelte-check": "catalog:",
 		"tailwindcss": "catalog:",
 		"typescript": "catalog:",
-		"vite": "catalog:"
+		"vite": "catalog:",
+		"vite-plus": "catalog:"
 	},
 	"type": "module"
 }

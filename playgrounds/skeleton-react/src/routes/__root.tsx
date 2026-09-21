@@ -1,4 +1,4 @@
-/// <reference types="vite/client" />
+/// <reference types="vite-plus/client" />
 import appCss from '../app.css?url';
 import LightSwitch from '../components/light-switch';
 import { createRootRoute, Outlet, Scripts, HeadContent } from '@tanstack/react-router';
