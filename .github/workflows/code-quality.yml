@@ -18,8 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          submodules: recursive
-          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT }}
+          submodules: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT && 'recursive' || 'false' }}
+          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT || github.token }}
       - uses: voidzero-dev/setup-vp@v1.21.0
         with:
           node-version: 24
@@ -31,8 +31,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          submodules: recursive
-          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT }}
+          submodules: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT && 'recursive' || 'false' }}
+          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT || github.token }}
       - uses: voidzero-dev/setup-vp@v1.21.0
         with:
           node-version: 24
@@ -44,8 +44,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          submodules: recursive
-          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT }}
+          submodules: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT && 'recursive' || 'false' }}
+          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT || github.token }}
       - uses: voidzero-dev/setup-vp@v1.21.0
         with:
           node-version: 24
@@ -57,8 +57,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          submodules: recursive
-          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT }}
+          submodules: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT && 'recursive' || 'false' }}
+          token: ${{ secrets.SKELETONLABS_PLUS_REPOSITORIES_PAT || github.token }}
       - uses: voidzero-dev/setup-vp@v1.21.0
         with:
           node-version: 24
